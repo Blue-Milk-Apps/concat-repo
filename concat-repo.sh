@@ -26,7 +26,7 @@ find "$root" \
      \(  -name '*.js'  -o -name '*.ts'  -o -name '*.tsx' -o -name '*.jsx' \
      -o -name '*.py'  -o -name '*.json' -o -name '*.md'  -o -name '*.txt' \
      -o -name '*.css' -o -name '*.html' -o -name '*.scss' \
-     -o -name '*.swift' -o -name '*.plist' -o -name '*.entitlements' \)
+     -o -name '*.swift' -o -name '*.plist' -o -name '*.entitlements' \) \
      ! \( -name 'package-lock.json' -o -name 'yarn.lock' -o -name 'pnpm-lock.yaml' \
      -o -name '*.min.js' -o -name '*.min.css' \) \
      -print \
